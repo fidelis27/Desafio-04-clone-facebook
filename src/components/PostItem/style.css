@@ -1,0 +1,39 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: left;
+}
+.post-header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.post-header > .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-header > .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 10px;
+}
+.post-header > .details > .name {
+    font-size: 14px;
+    font-weight: bold;
+}
+.post-header > .details > .date {
+    color: rgb(172, 169, 169);
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+.post > .content {
+    padding:10px
+}
