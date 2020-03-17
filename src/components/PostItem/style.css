@@ -1,8 +1,11 @@
 .post {
+    background:white;
     display: flex;
     flex-direction: column;
     padding: 10px;
     justify-content: left;
+    border-radius: 5px;
+    margin-top: 25px;
 }
 .post-header {
     display: flex;
